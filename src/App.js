@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+// import Navbar from './components/Layout/navbar/Navbar.js'
+// import Landing from './components/landing/Landing.js'
+// import About from './components/about/About.js'
+// import Packages from './components/packages/Packages.js'
+// import ContactForm from './components/contact/ContactFrom.js'
+// // import DemoContactForm from './components/contact/DemoContactForm.js'
+// import Footer from './components/Layout/footer/Footer.js'
+
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+      Art of Entertainment
     </div>
+    // <Router>
+    //   <Navbar />
+    //   <section>
+    //     <Switch>
+    //       <Route exact path='/' component={Landing}></Route>
+    //       <Route exact path='/about' component={About}></Route>
+    //       <Route exact path='/packages' component={Packages}></Route>
+    //       <Route exact path='/contact' component={ContactForm}></Route>
+    //       {/* <Route exact path='/contact' component={DemoContactForm}></Route> */}
+    //     </Switch>
+    //   </section>
+    //   <Footer style={{ color: 'red' }} />
+    // </Router>
   );
 }
 
