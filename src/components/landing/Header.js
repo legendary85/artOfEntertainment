@@ -7,7 +7,6 @@ const Header = () => {
     <section>
       <Jumbotron fluid>
         <Container fluid>
-          <h1>Art of Entertainment!</h1>
         </Container>
       </Jumbotron>
 
