@@ -10,6 +10,7 @@ import wed4 from '../../assets/img/wed-4.jpg'
 
 import './Carousel.css'
 import { Container } from 'reactstrap';
+import { LinkContainer } from 'react-router-bootstrap'
 
 const Carousel = () => {
   const settings = {
@@ -32,7 +33,9 @@ const Carousel = () => {
       <Container>
         <div className='text-center'>
           <p className='buttonHead'>Know what you want?</p>
-          <button type='button' className='btn btn-warning my-5'>Book Now</button>
+          <LinkContainer to='/packages'>
+            <button type='button' className='btn btn-warning my-5'>Book Now</button>
+          </LinkContainer>
         </div>
 
 
@@ -40,16 +43,16 @@ const Carousel = () => {
           {/* <h2> Single Item</h2> */}
           <Slider {...settings}>
             <div>
-              <img width='100%' src={wed2} alt="" srcset="" />
+              <img width='100%' src={wed2} alt="" srcSet="" />
             </div>
             <div>
-              <img width='100%' src={wed1} alt="" srcset="" />
+              <img width='100%' src={wed1} alt="" srcSet="" />
             </div>
             <div>
-              <img width='100%' src={wed4} alt="" srcset="" />
+              <img width='100%' src={wed4} alt="" srcSet="" />
             </div>
             <div>
-              <img width='100%' src={wed3} alt="" srcset="" />
+              <img width='100%' src={wed3} alt="" srcSet="" />
             </div>
           </Slider>
         </div>

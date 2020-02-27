@@ -2,7 +2,6 @@
 import React, { Fragment, useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-import axios from 'axios'
 
 
 
@@ -32,9 +31,6 @@ const NavigationBar = () => {
             </NavItem>
             <NavItem>
               <NavLink href="/contact">Contact</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

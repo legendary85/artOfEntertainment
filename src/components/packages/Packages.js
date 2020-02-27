@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { LinkContainer } from 'react-router-bootstrap'
 
 import './Packages.css'
 
@@ -33,7 +34,9 @@ class Packages extends Component {
                   <br />
                   <br />
                 </ul>
-                <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>
+                < LinkContainer to='/contact'>
+                  <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>
+                </LinkContainer>
               </div>
               <div className="card-body mobile">
                 {/* <h1 className="card-title pricing-card-title">$100<small className="text-muted">/ hr</small></h1> */}
@@ -45,7 +48,9 @@ class Packages extends Component {
                   <li>(8) Uplights</li>
                   <br />
                 </ul>
-                <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>
+                <LinkContainer to='/contact'>
+                  <button id='bronzeBtn' type="button" className="btn btn-lg btn-block btn-primary">Book Event</button>
+                </LinkContainer>
               </div>
             </div>
 
@@ -70,18 +75,20 @@ class Packages extends Component {
                   <br />
                   <br />
                 </ul>
-                <button id='goldBtn' type="button" className="btn  btn-block btn-lg  btn-primary ">Book Event</button>
+                <LinkContainer to='/contact'>
+                  <button id='goldBtn' type="button" className="btn  btn-block btn-lg  btn-primary ">Book Event</button>
+                </LinkContainer>
               </div>
             </div>
 
-            <div class="card mb-4 shadow-sm">
+            <div className="card mb-4 shadow-sm">
               {/* <img src="https://media.istockphoto.com/photos/platinum-background-with-just-a-sheet-of-metal-picture-id123152972?k=6&m=123152972&s=170667a&w=0&h=vLnv8td_Wu6gwW6J6jf25qoyy2s4mZVYc1lTlOtVDXI=" className="card-img-top" alt="..."></img> */}
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Platinum Package</h4>
+              <div className="card-header">
+                <h4 className="my-0 font-weight-normal">Platinum Package</h4>
               </div>
-              <div class="card-body">
-                {/* <h1 class="card-title pricing-card-title">$250 <small class="text-muted">/ hr</small></h1> */}
-                <ul class="list-unstyled mt-3 mb-4">
+              <div className="card-body">
+                {/* <h1 className="card-title pricing-card-title">$250 <small className="text-muted">/ hr</small></h1> */}
+                <ul className="list-unstyled mt-3 mb-4">
                   <li>DJ Service/MC</li>
                   <li>Facade/Totum</li>
                   <li>(2) PA Speakers</li>
@@ -94,17 +101,20 @@ class Packages extends Component {
                     (Wedding)</li>
                   <li>Photo booth included <br />(valued at $100 hr)</li>
                 </ul>
-                <button id='platinumBtn' type="button" class="btn btn-lg btn-block btn-primary">Book Event</button>
+                <LinkContainer to='/contact'>
+                  <button id='goldBtn' type="button" className="btn  btn-block btn-lg  btn-primary ">Book Event</button>
+                </LinkContainer>
+
               </div>
             </div>
           </div>
 
-          <div id='addOns' class="card-deck text-center">
-            <div class="card">
+          <div id='addOns' className="card-deck text-center">
+            <div className="card">
               <div className="card-header">
-                <h5 class="card-title">Add-Ons</h5>
+                <h5 className="card-title">Add-Ons</h5>
               </div>
-              <div class="card-body">
+              <div className="card-body">
 
 
                 <ul style={{ listStyleType: "none" }}>

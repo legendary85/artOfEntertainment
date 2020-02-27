@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
   return (
     <section>
-      <Jumbotron fluid>
+      <Jumbotron fluid className='logo'>
         <Container fluid>
         </Container>
       </Jumbotron>
